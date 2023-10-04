@@ -1,0 +1,11 @@
+{
+  "name": "test-css",
+  "private": true,
+  "scripts": {
+    "sass-compile-dev": "node-sass --output-style expanded scss -o css",
+    "sass-compile": "node-sass --output-style compressed scss -o css"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}

@@ -1,0 +1,78 @@
+$color-green: #6F8446;
+
+$color-red: #c62f38;
+$color-yellow: #fadf1f;
+
+$color-main: $color-green;
+$color-secondary: #000000;
+$color-main-darken: darken($color-main, 10);;
+
+$color-link: $color-green;
+$color-link-hover: $color-main-darken;
+
+
+$bp-medium: 720px;
+$bp-low: 505px;
+$bp-very-low: 350px;
+html {
+font-family: "Lora", "georgia", serif
+}
+.block-system-branding-block {
+  font-family: 'Champagne-Limousines', Sans-Serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Champagne-Limousines', Sans-Serif;
+  font-weight: normal;
+  color: $color-green;
+}
+
+
+.mobile-nav-button__icon {
+  background-color: $color-green;
+  &::before, &::after {
+    background-color: $color-green;
+  }
+}
+
+.region--content .block__title {
+  font-size: 2rem;
+}
+
+nav.menu--main,
+nav.menu--account {
+  font-family: 'Champagne-Limousines', Sans-Serif;
+  font-weight: normal;
+  font-size: 1.1rem;
+  .primary-nav__menu-link {
+    font-size: 1.2rem;
+
+  }
+}
+
+#block-kebrina-front-page-title {
+  text-align: center;
+}
+
+#block-kebrina-front-content,
+#block-listedemariage,
+#block-galeriephoto,
+#block-listedenaissance {
+  text-align: center;
+  ul {
+    text-align: left;
+    font-size: 0.95rem;
+  }
+}
+
+form {
+  text-align: left;
+}
+
+span.small {
+  font-size: 0.9rem;
+}
+
+section.comments {
+  text-align: left;
+}
